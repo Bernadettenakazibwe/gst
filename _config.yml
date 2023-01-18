@@ -1,0 +1,53 @@
+title: DIGITAL HEALTH 
+author: Bernadette  
+description:  "Different Technological developments in the Health sector."
+baseurl: "" 
+url: "https://Bernadettenakazibwe.github.io/" 
+
+social:
+  name: Bernadette
+  links: 
+    
+navigation:
+  - {name: 'Home', link: '/'}
+  - {name: 'About', link: '/about'}
+  - {name: 'Contact', link: '/contact'}
+
+tagline: >
+  Technology advancement and Medicine
+
+hero_img: posts/sleek_lg.jpg 
+
+email: bernadettenakazibwe@gmail.com
+
+github_username: Bernadettenakazibwe  
+
+disqus:
+  shortname: Bernadette 
+
+service_worker: true
+
+markdown: kramdown
+highlighter: rouge
+exclude:
+  - README.md
+  - node_modules
+  - script
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+  - sleek.jpg
+
+include: ['_pages']
+permalink: /:title/
+
+compress_html:
+  clippings: all
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
